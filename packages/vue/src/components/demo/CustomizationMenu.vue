@@ -3,11 +3,11 @@
     <v-btn
       ref="button"
       class="drawer-button"
-      color="#ee44aa"
+      color="blue"
       dark
       @click="right = true"
     >
-      <v-icon class="fa-spin">mdi-cog-outline</v-icon>
+      <v-icon>mdi-cog-outline</v-icon>
     </v-btn>
 
     <v-navigation-drawer
@@ -213,7 +213,7 @@ export default {
   top: 340px;
   right: -20px;
   z-index: 6;
-  box-shadow: 1px 1px 18px #ee44aa;
+  box-shadow: 1px 1px 18px blue;
 
   .v-icon {
     margin-left: -18px;
